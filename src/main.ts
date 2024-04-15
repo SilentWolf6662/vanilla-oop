@@ -15,10 +15,10 @@ import data from './../assets/json/data.json'
 	const container = document.createElement('div')
 	container.classList.add('container')
 	app?.appendChild(container)
-	const nav = new Nav(container, projects)
-	const projectStatus = new ProjectStatus(container, projects[0])
-	const card = new Card(container, projects[0], projects)
-	const modal = new Modal(projects[0])
+	new Nav(container, projects)
+	new ProjectStatus(container, projects[2])
+	new Card(container, projects[2], projects)
+	const modal = new Modal()
 	modal.hideModal()
 	const cardContainer = document.querySelector('.container') as HTMLElement
 

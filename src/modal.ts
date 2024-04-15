@@ -1,12 +1,9 @@
-import { ProjectElement } from "./types/types"
 
 export default class Modal {
 	card: HTMLElement
 	image: HTMLElement = document.querySelector('.image') as HTMLElement
-	project: ProjectElement
-	constructor(project: ProjectElement) {
+	constructor() {
 		this.card = document.querySelector('.card') as HTMLElement
-		this.project = project
 		this.initialize()
 	}
 
@@ -42,8 +39,11 @@ export default class Modal {
 		// Event Listener
 		this.image.addEventListener('click', () => {
 			this.showModal()
-			img.src = this.project.imageSrc
-			caption.textContent = this.project.name
+			const titel = document.querySelector('.content h2') as HTMLElement
+			const image = document.querySelector('.image img') as HTMLImageElement
+
+			img.src = image.src
+			caption.textContent = titel.textContent
 		})
 
 		close.addEventListener('click', () => {
@@ -71,9 +71,5 @@ export default class Modal {
 	hideModal() {
 		const modal = document.querySelector('.modal') as HTMLElement
 		modal.style.display = 'none'
-	}
-
-	changeModalContent(project: ProjectElement) {
-		this.project = project
 	}
 }

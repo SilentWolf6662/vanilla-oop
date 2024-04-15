@@ -1,3 +1,4 @@
+import Modal from './modal'
 import { ProjectElement } from './types/types'
 import gsap from 'gsap'
 
@@ -83,7 +84,7 @@ export default class Card {
 	createRepositoryLink(container: HTMLElement) {
 		const repositoryLink = document.createElement('a')
 
-		if (this.project.liveLink) {
+		if (this.project.repositoryLink) {
 			repositoryLink.href = this.project.repositoryLink
 			repositoryLink.textContent = 'Repository'
 		} else {
@@ -167,7 +168,7 @@ export default class Card {
 				opacity: 0,
 				ease: 'circ.inOut',
 				onComplete: () => {
-					status.textContent = content.status
+					status.setAttribute('data-status', content.status)
 				}
 			})
 		}
@@ -251,11 +252,8 @@ export default class Card {
 
 	addClickEvents() {
 		const tabs = document.querySelectorAll('.tab')
-		tabs.forEach((tab, index) => {
-			tab.addEventListener('click', () => {
-				this.changeContent(index)
-				console.log('clicked tab index:', index)
-			})
-		})
+		tabs.forEach((tab, index) =>
+			tab.addEventListener('click', () => this.changeContent(index))
+		)
 	}
 }

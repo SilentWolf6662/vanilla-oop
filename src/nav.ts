@@ -112,7 +112,7 @@ export default class Nav {
 		tab.classList.add('tab')
 		tab.setAttribute('data-index', index.toString())
 		tab.textContent = project.navText
-		if (index === 0) tab.classList.add('active')
+		if (index === 2) tab.classList.add('active')
 
 		tab.setAttribute('role', 'tab')
 		tab.setAttribute('aria-controls', `tab-${index}`)

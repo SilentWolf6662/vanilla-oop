@@ -7,7 +7,7 @@
 			"imageSrc": "./assets/img/VanillaOOP.png",
 			"technologies": ["TypeScript", "SCSS", "Vite"],
 			"status": "In Progress",
-			"repositoryLink": "",
+			"repositoryLink": "https://github.com/SilentWolf6662/vanilla-oop",
 			"liveLink": ""
 		},
 		{
@@ -29,13 +29,13 @@
 			"liveLink": ""
 		},
 		{
-			"navText": "Test Data 3",
-			"name": "Test Project 3",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "Abandoned",
-			"repositoryLink": "",
+			"navText": "Nightbird",
+			"name": "Nightbird",
+			"description": "This is a complex website for a fictional nightclub company that I made as a school project as a final project on basic course in web development. The project was a predefined project with optional technologies. It's a website that etc. displays the company's services, events, and more. (Completed to what was required)",
+			"imageSrc": "./assets/img/nightbird.png",
+			"technologies": ["TypeScript", "TailwindCSS", "NextJS", "MySQL", "bcrypt", "NextAuth", "Contentful", "And More..."],
+			"status": "Completed",
+			"repositoryLink": "https://github.com/SilentWolf6662/nightbird",
 			"liveLink": ""
 		},
 		{
@@ -44,7 +44,7 @@
 			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
 			"imageSrc": "./assets/img/VanillaOOP.png",
 			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "Completed",
+			"status": "In Progress",
 			"repositoryLink": "",
 			"liveLink": ""
 		},
@@ -54,7 +54,7 @@
 			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
 			"imageSrc": "./assets/img/VanillaOOP.png",
 			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "Live",
+			"status": "In Progress",
 			"repositoryLink": "",
 			"liveLink": ""
 		},
