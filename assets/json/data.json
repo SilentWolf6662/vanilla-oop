@@ -1,0 +1,152 @@
+{
+    "projects": [
+		{
+			"navText": "Vanilla OOP",
+			"name": "Vanilla OOP Project",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Dashboard",
+			"name": "Dashboard Project",
+			"description": "This is a complex dashboard project that I made as a personal game server management tool. It's a dashboard that etc. displays statistics and managing all users connected to the game server or registered onto the website.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": [
+				"TypeScript",
+				"TailwindCSS",
+				"NextJS",
+				"shadcnui",
+				"NextAuth",
+				"Prisma",
+				"MySQL"
+			],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 3",
+			"name": "Test Project 3",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "Abandoned",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 4",
+			"name": "Test Project 4",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "Completed",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 5",
+			"name": "Test Project 5",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "Live",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 6",
+			"name": "Test Project 6",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 7",
+			"name": "Test Project 7",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 8",
+			"name": "Test Project 8",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 9",
+			"name": "Test Project 9",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 10",
+			"name": "Test Project 10",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 11",
+			"name": "Test Project 11",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 12",
+			"name": "Test Project 12",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 13",
+			"name": "Test Project 13",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		},
+		{
+			"navText": "Test Data 14",
+			"name": "Test Project 14",
+			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
+			"imageSrc": "./assets/img/VanillaOOP.png",
+			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"status": "In Progress",
+			"repositoryLink": "",
+			"liveLink": ""
+		}
+	]
+}
