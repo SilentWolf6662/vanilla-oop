@@ -112,7 +112,7 @@ export default class Nav {
 		tab.classList.add('tab')
 		tab.setAttribute('data-index', index.toString())
 		tab.textContent = project.navText
-		if (index === 2) tab.classList.add('active')
+		if (index === 0) tab.classList.add('active')
 
 		tab.setAttribute('role', 'tab')
 		tab.setAttribute('aria-controls', `tab-${index}`)
@@ -141,13 +141,6 @@ export default class Nav {
 			})
 		})
 
-		// Add click event listeners to tabs
-		this.badges.forEach(badge => {
-			badge.addEventListener('click', () => {
-				this.activateTab(badge)
-			})
-		})
-
 		// Add wheel event listener to tabs
 		this.tabs.addEventListener('wheel', event => {
 			if (this.tabs === null) return
@@ -160,9 +153,6 @@ export default class Nav {
 			if (this.tabs === null) return
 			this.updateIcons(this.tabs.scrollLeft)
 		})
-
-		// Add keyboard event listener to tabs
-		this.keyboardHandler(this.tabs)
 	}
 
 	/**
@@ -258,48 +248,6 @@ export default class Nav {
 
 		tabs.addEventListener('scroll', () => {
 			this.updateIcons(tabs.scrollLeft)
-		})
-	}
-
-	/**
-	 * Handles keyboard events for navigating the tabs.
-	 * @param tabs The tabs element to handle keyboard events for.
-	 */
-	keyboardHandler(tabs: HTMLElement) {
-		tabs.addEventListener('keydown', event => {
-			const currentTab = tabs.querySelector('.active') as HTMLElement
-			if (!currentTab) return
-			let newTab: HTMLElement | null = null
-
-			switch (event.key) {
-				case 'ArrowRight':
-					newTab =
-						(currentTab.nextElementSibling as HTMLElement) ||
-						(tabs.firstElementChild as HTMLElement)
-					break
-				case 'ArrowLeft':
-					newTab =
-						(currentTab.previousElementSibling as HTMLElement) ||
-						(tabs.lastElementChild as HTMLElement)
-					break
-				default:
-					return
-			}
-
-			if (newTab) {
-				// Update aria-selected attributes
-				tabs.querySelectorAll('[role="tab"]').forEach(tab => {
-					tab.setAttribute(
-						'aria-selected',
-						tab === newTab ? 'true' : 'false'
-					)
-				})
-
-				// Update active class and focus
-				currentTab.classList.remove('active')
-				newTab.classList.add('active')
-				newTab.focus()
-			}
 		})
 	}
 }

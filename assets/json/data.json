@@ -1,5 +1,5 @@
 {
-    "projects": [
+	"projects": [
 		{
 			"navText": "Vanilla OOP",
 			"name": "Vanilla OOP Project",
@@ -13,8 +13,8 @@
 		{
 			"navText": "Dashboard",
 			"name": "Dashboard Project",
-			"description": "This is a complex dashboard project that I made as a personal game server management tool. It's a dashboard that etc. displays statistics and managing all users connected to the game server or registered onto the website.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
+			"description": "This is a complex dashboard project that I made as a personal game server management tool. It's a dashboard that etc. displays statistics and managing all users connected to the game server or registered onto the website.\n\n\n\n(Repository will stay private for now)",
+			"imageSrc": "./assets/img/dashboard.png",
 			"technologies": [
 				"TypeScript",
 				"TailwindCSS",
@@ -31,41 +31,56 @@
 		{
 			"navText": "Nightbird",
 			"name": "Nightbird",
-			"description": "This is a complex website for a fictional nightclub company that I made as a school project as a final project on basic course in web development. The project was a predefined project with optional technologies. It's a website that etc. displays the company's services, events, and more. (Completed to what was required)",
+			"description": "This is a complex website for a fictional nightclub company that I made as a school project as a final project on basic course in web development. The project was a predefined project with optional technologies. It's a website that etc. displays the company's services, events, and more.\n\n\n\n(Completed to what was required)",
 			"imageSrc": "./assets/img/nightbird.png",
-			"technologies": ["TypeScript", "TailwindCSS", "NextJS", "MySQL", "bcrypt", "NextAuth", "Contentful", "And More..."],
+			"technologies": [
+				"TypeScript",
+				"TailwindCSS",
+				"NextJS",
+				"MySQL",
+				"bcrypt",
+				"NextAuth",
+				"Contentful",
+				"And More..."
+			],
 			"status": "Completed",
 			"repositoryLink": "https://github.com/SilentWolf6662/nightbird",
 			"liveLink": ""
 		},
 		{
-			"navText": "Test Data 4",
-			"name": "Test Project 4",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
+			"navText": "Visualizer",
+			"name": "Visualizer/Music Player",
+			"description": "A little hobby project that I made to visualize the music playing. It was at first a little project to practice my skills in JavaScript, but it turned out to be a fun little project that I continued on it and made it to a music player and I am still using the music player to this day. It's a simple website that visualizes the music playing and allows you to control the music playing.\n\n(Repository will stay private for now)",
+			"imageSrc": "./assets/img/visualizer.png",
+			"technologies": [
+				"JavaScript",
+				"CSS",
+				"TailwindCSS",
+				"HTML",
+				"jQuery"
+			],
+			"status": "Completed",
 			"repositoryLink": "",
 			"liveLink": ""
 		},
 		{
-			"navText": "Test Data 5",
-			"name": "Test Project 5",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
+			"navText": "Drømmesokker",
+			"name": "Drømmesokker",
+			"description": "This is a project that I made as a school project to practice my skills with javascript and tailwindcss. It's a website for a fictive company that sells socks. The website is a simple website that displays the company's products and allows you to buy them.\n\n\n\n(Completed to what was required)",
+			"imageSrc": "./assets/img/drommesokker.png",
+			"technologies": ["TailwindCSS", "JavaScript", "HTML", "CSS"],
+			"status": "Completed",
+			"repositoryLink": "https://github.com/SilentWolf6662/droemmesokker",
 			"liveLink": ""
 		},
 		{
-			"navText": "Test Data 6",
-			"name": "Test Project 6",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
+			"navText": "Event Centrum",
+			"name": "Event Centrum",
+			"description": "This is a project that I made as a school project to practice the exam form of a project and TailwindCSS. It's a website for a fictive company that is a event agency. The website is a simple website that allows you to contact them.\n\n\n\n(Completed to what was required)",
+			"imageSrc": "./assets/img/eventcentrum.png",
+			"technologies": ["TypeScript", "tailwindcss", "NextJS"],
 			"status": "In Progress",
-			"repositoryLink": "",
+			"repositoryLink": "https://github.com/SilentWolf6662/EventCentrum",
 			"liveLink": ""
 		},
 		{
@@ -77,76 +92,13 @@
 			"status": "In Progress",
 			"repositoryLink": "",
 			"liveLink": ""
-		},
-		{
-			"navText": "Test Data 8",
-			"name": "Test Project 8",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
-			"liveLink": ""
-		},
-		{
-			"navText": "Test Data 9",
-			"name": "Test Project 9",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
-			"liveLink": ""
-		},
-		{
-			"navText": "Test Data 10",
-			"name": "Test Project 10",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
-			"liveLink": ""
-		},
-		{
-			"navText": "Test Data 11",
-			"name": "Test Project 11",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
-			"liveLink": ""
-		},
-		{
-			"navText": "Test Data 12",
-			"name": "Test Project 12",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
-			"liveLink": ""
-		},
-		{
-			"navText": "Test Data 13",
-			"name": "Test Project 13",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
-			"liveLink": ""
-		},
-		{
-			"navText": "Test Data 14",
-			"name": "Test Project 14",
-			"description": "This is a simple project that I made to practice OOP in TypeScript. It's a simple website that displays a list of all my projects and their details.",
-			"imageSrc": "./assets/img/VanillaOOP.png",
-			"technologies": ["TypeScript", "SCSS", "Vite"],
-			"status": "In Progress",
-			"repositoryLink": "",
-			"liveLink": ""
 		}
-	]
+	],
+	"contact": {
+		"Email": "mathiasdandersen@hotmail.dk",
+		"Phone": "+4524808246",
+		"Github": "SilentWolf6662",
+		"Linkedin": "Mathias Drægert Mose Andersen",
+		"Discord": "silentwolf_666"
+	}
 }
