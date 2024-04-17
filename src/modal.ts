@@ -1,4 +1,3 @@
-
 export default class Modal {
 	card: HTMLElement
 	image: HTMLElement = document.querySelector('.image') as HTMLElement
@@ -40,7 +39,9 @@ export default class Modal {
 		this.image.addEventListener('click', () => {
 			this.showModal()
 			const titel = document.querySelector('.content h2') as HTMLElement
-			const image = document.querySelector('.image img') as HTMLImageElement
+			const image = document.querySelector(
+				'.image img'
+			) as HTMLImageElement
 
 			img.src = image.src
 			caption.textContent = titel.textContent
@@ -65,11 +66,17 @@ export default class Modal {
 
 	showModal() {
 		const modal = document.querySelector('.modal') as HTMLElement
+		const modalImage = document.querySelector('.modal img')
+		modalImage?.classList.remove('shrink')
+		modalImage?.classList.add('enlarge')
 		modal.style.display = 'block'
 	}
 
 	hideModal() {
 		const modal = document.querySelector('.modal') as HTMLElement
+		const modalImage = document.querySelector('.modal img')
+		modalImage?.classList.remove('enlarge')
+		modalImage?.classList.add('shrink')
 		modal.style.display = 'none'
 	}
 }

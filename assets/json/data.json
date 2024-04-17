@@ -76,7 +76,7 @@
 		{
 			"navText": "Event Centrum",
 			"name": "Event Centrum",
-			"description": "This is a project that I made as a school project to practice the exam form of a project and TailwindCSS. It's a website for a fictive company that is a event agency. The website is a simple website that allows you to contact them.\n\n\n\n(Completed to what was required)",
+			"description": "This is a project that I made as a school project to practice the exam format of a project and TailwindCSS. It's a website for a fictive company that is a event agency. The website is a simple website that allows you to contact them.\n\n\n\n(Completed to what was required)",
 			"imageSrc": "./assets/img/eventcentrum.png",
 			"technologies": ["TypeScript", "tailwindcss", "NextJS"],
 			"status": "In Progress",

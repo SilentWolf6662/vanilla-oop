@@ -208,8 +208,17 @@ h1 {
 	}
 }
 
+@keyframes enlargeImage {
+	from {
+		transform: scale(0.5); /* Start from half the size */
+	}
+	to {
+		transform: scale(3); /* End at full size */
+	}
+}
+
 .modal {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(23, 33, 53, 0.5);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -219,27 +228,33 @@ h1 {
 	justify-content: center;
 	align-items: baseline;
 	z-index: 1000;
+	overflow: auto; /* Enable scroll if the content is too long */
+	transition: all 0.2s ease-in-out;
 
 	img {
-		object-fit: cover;
+		object-fit: contain;
 		object-position: center;
 		padding: 1%;
-		border-radius: 0.6rem;
-		width: 100%;
-		height: 100%;
-		scale: 1.5;
+
+		&.enlarge {
+			animation: enlargeImage 0.5s forwards;
+		}
+
+		&.shrink {
+			animation: enlargeImage 0.5s reverse;
+		}
 	}
 
 	.close {
+		z-index: 1001;
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
 		font-size: 2rem;
 		font-weight: 500;
-		cursor: pointer;
 		width: 2.5rem;
 		height: 2.5rem;
-		background-color: #222c5367;
+		background-color: transparent;
 		color: $text;
 		border-radius: 50%;
 		display: grid;
@@ -247,17 +262,16 @@ h1 {
 	}
 
 	.caption {
+		position: relative;
 		color: $text;
 		font-size: 2.6rem;
-		margin-bottom: 6rem;
+		padding-bottom: 20rem;
+		z-index: 1001;
 	}
 
 	button {
-		background-color: $primary;
-		color: $text;
 		padding: 0.3rem 0.3rem;
 		border: none;
-		border-radius: 0.6rem;
 		font:
 			600 10rem / 0rem "poppins",
 			sans-serif;
@@ -265,13 +279,11 @@ h1 {
 		transition: 0.2s ease-in-out;
 
 		&:hover {
-			background-color: $primarySofter;
 			cursor: pointer;
 		}
 	}
 
 	.modalContent {
-		background-color: rgba(23, 33, 53, 0.5);
 		color: $text;
 		padding: 2rem;
 		border-radius: 0.6rem;
