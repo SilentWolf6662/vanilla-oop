@@ -1,17 +1,19 @@
-import data from './../assets/json/data.json'
+import FetchDB from './fetchDB'
 
 export default class Footer {
-	constructor(private container: HTMLElement) {
+	dbFetcher: FetchDB
+	constructor(private container: HTMLElement, dbFetcher: FetchDB) {
+		this.dbFetcher = dbFetcher
 		this.initialize()
 	}
 
-	initialize() {
-		const footer = this.createFooter()
+	async initialize() {
+		const footer = await this.createFooter()
 		this.createText(footer)
 	}
 
-	createFooter(): HTMLElement {
-		const table = generateTable()
+	async createFooter() {
+		const table = await generateTable(this.dbFetcher) // Pass dbFetcher as an argument
 		table.classList.add('contact')
 		this.container.appendChild(table)
 
@@ -45,7 +47,8 @@ export default class Footer {
 	}
 }
 
-function generateTable() {
+async function generateTable(dbFetcher: FetchDB) {
+	const contactsData = await dbFetcher.getContacts()
 	const table = document.createElement('table')
 	const tableHead = document.createElement('thead')
 	const tableRow = document.createElement('tr')
@@ -60,15 +63,18 @@ function generateTable() {
 	const tableBody = document.createElement('tbody')
 	table.appendChild(tableBody)
 
-	const contact = data.contact // Assuming `data` is your JSON object
+	const contact = contactsData[0]
+
 	Object.entries(contact).forEach(([key, value]) => {
 		const tableRow = document.createElement('tr')
 		const tableData = document.createElement('td')
 		const tableDataValue = document.createElement('td')
 
+		if (key == 'id' || key == null) return
+
 		tableDataValue.classList.add('link')
 		tableData.textContent = `${key}:` // Use template literals for readability
-		tableDataValue.textContent = value
+		tableDataValue.textContent = value as string
 
 		if (key === 'Email') {
 			tableDataValue.addEventListener('click', () => {
@@ -92,7 +98,7 @@ function generateTable() {
 			})
 		} else {
 			tableDataValue.addEventListener('click', () => {
-				window.open(value, '_blank')
+				window.open(value as string, '_blank')
 			})
 		}
 

@@ -77,6 +77,8 @@ export default class Modal {
 		const modalImage = document.querySelector('.modal img')
 		modalImage?.classList.remove('enlarge')
 		modalImage?.classList.add('shrink')
-		modal.style.display = 'none'
+		setTimeout(() => {
+			modal.style.display = 'none'
+		}, 500)
 	}
 }

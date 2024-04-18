@@ -210,10 +210,19 @@ h1 {
 
 @keyframes enlargeImage {
 	from {
-		transform: scale(0.5); /* Start from half the size */
+		transform: scale(0); /* Start size */
 	}
 	to {
 		transform: scale(3); /* End at full size */
+	}
+}
+
+@keyframes shrinkImage {
+	from {
+		transform: scale(3); /* Start from full size */
+	}
+	to {
+		transform: scale(0); /* End start size */
 	}
 }
 
@@ -241,14 +250,14 @@ h1 {
 		}
 
 		&.shrink {
-			animation: enlargeImage 0.5s reverse;
+			animation: shrinkImage 0.5s forwards;
 		}
 	}
 
 	.close {
 		z-index: 1001;
 		position: absolute;
-		top: 2rem;
+		top: .5rem;
 		right: 2rem;
 		font-size: 2rem;
 		font-weight: 500;

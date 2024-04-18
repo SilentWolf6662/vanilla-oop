@@ -3,15 +3,18 @@ import gsap from 'gsap'
 
 export default class Card {
 	statusPosition: DOMRect
+	projectTechnologies: string[] = []
 	constructor(
 		private container: HTMLElement,
 		private project: ProjectElement,
-		private projects: ProjectElement[]
+		private projects: ProjectElement[],
+		projectTechnologies: string[]
 	) {
 		this.inistialize()
 		this.statusPosition = document
 			.querySelector('.status')
 			?.getBoundingClientRect() as DOMRect
+		this.projectTechnologies = projectTechnologies
 	}
 
 	inistialize() {

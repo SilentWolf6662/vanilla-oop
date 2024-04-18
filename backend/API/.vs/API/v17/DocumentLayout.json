@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\models\\projecttechnology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:models\\projecttechnology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\controllers\\technologiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:controllers\\technologiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\controllers\\projecttechnologycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:controllers\\projecttechnologycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\models\\technology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:models\\technology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|c:\\websites\\hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7037BD72-33C3-4A95-AD0F-D93D7755FA77}|API.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T10:38:53.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectTechnologyController.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\ProjectTechnologyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectTechnologyController.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\ProjectTechnologyController.cs",
+              "RelativeToolTip": "Controllers\\ProjectTechnologyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:15:23.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TechnologiesController.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\TechnologiesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TechnologiesController.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\TechnologiesController.cs",
+              "RelativeToolTip": "Controllers\\TechnologiesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:12:18.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:07:05.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:48:05.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:35:51.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectTechnology.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\ProjectTechnology.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectTechnology.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\ProjectTechnology.cs",
+              "RelativeToolTip": "Models\\ProjectTechnology.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:36:58.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectDBContext.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\ProjectDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectDBContext.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\ProjectDBContext.cs",
+              "RelativeToolTip": "Models\\ProjectDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:37:30.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:07:24.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:36:03.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T09:58:08.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:07:42.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:07:25.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Technology.cs",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\Technology.cs",
+              "RelativeDocumentMoniker": "Models\\Technology.cs",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\Models\\Technology.cs",
+              "RelativeToolTip": "Models\\Technology.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:36:27.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API.csproj",
+              "ToolTip": "C:\\Websites\\Hovedforl\u00F8b\\vanilla-javascript-oop-projekt-mathias-andersen\\backend\\API\\API.csproj",
+              "RelativeToolTip": "API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-18T09:58:05.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
