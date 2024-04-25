@@ -3,18 +3,15 @@ import gsap from 'gsap'
 
 export default class Card {
 	statusPosition: DOMRect
-	projectTechnologies: string[] = []
 	constructor(
 		private container: HTMLElement,
 		private project: ProjectElement,
-		private projects: ProjectElement[],
-		projectTechnologies: string[]
+		private projects: ProjectElement[]
 	) {
 		this.inistialize()
 		this.statusPosition = document
 			.querySelector('.status')
 			?.getBoundingClientRect() as DOMRect
-		this.projectTechnologies = projectTechnologies
 	}
 
 	inistialize() {
@@ -72,11 +69,14 @@ export default class Card {
 		text.appendChild(description)
 	}
 
-	createTechnologies(container: HTMLElement) {
+	createTechnologies(container: HTMLElement, content = this.project) {
+		const tempTechnologiesList: string[] = content.technologies
+			.toString()
+			.split(',')
 		const technologies = document.createElement('ul')
 		technologies.classList.add('technologies')
 		container.appendChild(technologies)
-		this.project.technologies.forEach(technology => {
+		tempTechnologiesList.forEach(technology => {
 			const li = document.createElement('li')
 			li.textContent = technology
 			technologies.appendChild(li)
@@ -269,9 +269,11 @@ export default class Card {
 				opacity: 0,
 				ease: 'circ.inOut',
 				onComplete: () => {
-					const technologiesList = content.technologies
+					const tempTechnologiesList: string[] = content.technologies
+						.toString()
+						.split(',')
 					technologies.innerHTML = ''
-					technologiesList.forEach(technology => {
+					tempTechnologiesList.forEach(technology => {
 						const li = document.createElement('li')
 						li.textContent = technology
 						technologies.appendChild(li)

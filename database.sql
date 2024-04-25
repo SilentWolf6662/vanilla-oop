@@ -28,9 +28,11 @@ CREATE TABLE IF NOT EXISTS `contact` (
   `linkedin` varchar(255) DEFAULT NULL,
   `discord` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Dumping data for table silentprojectdatabase.contact: ~0 rows (approximately)
+INSERT INTO `contact` (`id`, `email`, `phone`, `github`, `linkedin`, `discord`) VALUES
+	(1, 'mathiasdandersen@hotmail.dk', '+4524808246', 'SilentWolf6662', 'Mathias Draegert Mose Andersen', 'silentwolf_666');
 
 -- Dumping structure for table silentprojectdatabase.projects
 CREATE TABLE IF NOT EXISTS `projects` (
@@ -42,10 +44,18 @@ CREATE TABLE IF NOT EXISTS `projects` (
   `status` varchar(255) DEFAULT NULL,
   `repositoryLink` varchar(255) DEFAULT NULL,
   `liveLink` varchar(255) DEFAULT NULL,
+  `technologies` longtext DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table silentprojectdatabase.projects: ~0 rows (approximately)
+-- Dumping data for table silentprojectdatabase.projects: ~6 rows (approximately)
+INSERT INTO `projects` (`id`, `navText`, `name`, `description`, `imageSrc`, `status`, `repositoryLink`, `liveLink`, `technologies`) VALUES
+	(1, 'Vanilla OOP', 'Vanilla OOP Project', 'This is a simple project that I made to practice OOP in TypeScript. It\'s a simple website that displays a list of all my projects and their details.', './assets/img/VanillaOOP.png', 'In Progress', 'https://github.com/SilentWolf6662/vanilla-oop', '', 'TypeScript, SCSS, Vite'),
+	(2, 'Dashboard', 'Dashboard Project', 'This is a complex dashboard project that I made as a personal game server management tool. It\'s a dashboard that etc. displays statistics and managing all users connected to the game server or registered onto the website.\n\n\n\n(Repository will stay private for now)', './assets/img/dashboard.png', 'In Progress', '', '', 'TypeScript, TailwindCSS, NextJS, shadcn/ui, NextAuth, Prisma, MySQL'),
+	(3, 'Nightbird', 'Nightbird', 'This is a complex website for a fictional nightclub company that I made as a school project as a final project on basic course in web development. The project was a predefined project with optional technologies. It\'s a website that etc. displays the company\'s services, events, and more.\n\n\n\n(Completed to what was required)', './assets/img/nightbird.png', 'Completed', 'https://github.com/SilentWolf6662/nightbird', '', 'TypeScript, TailwindCSS, NextJS, MySQL, bcrypt, NextAuth, Contentful, And More...'),
+	(4, 'Visualizer', 'Visualizer/Music Player', 'A little hobby project that I made to visualize the music playing. It was at first a little project to practice my skills in JavaScript, but it turned out to be a fun little project that I continued on it and made it to a music player and I am still using the music player to this day. It\'s a simple website that visualizes the music playing and allows you to control the music playing.\n\n(Repository will stay private for now)', './assets/img/visualizer.png', 'Completed', '', '', 'JavaScript, CSS, TailwindCSS, HTML, jQuery'),
+	(5, 'Droemmesokker', 'Droemmesokker', 'This is a project that I made as a school project to practice my skills with javascript and tailwindcss. It\'s a website for a fictive company that sells socks. The website is a simple website that displays the company\'s products and allows you to buy them.\n\n\n\n(Completed to what was required)', './assets/img/drommesokker.png', 'Completed', 'https://github.com/SilentWolf6662/droemmesokker', '', 'JavaScript, TailwindCSS, HTML, CSS'),
+	(6, 'Event Centrum', 'Event Centrum', 'This is a project that I made as a school project to practice the exam format of a project and TailwindCSS. It\'s a website for a fictive company that is a event agency. The website is a simple website that allows you to contact them.\n\n\n\n(Completed to what was required)', './assets/img/eventcentrum.png', 'In Progress', 'https://github.com/SilentWolf6662/EventCentrum', '', 'TypeScript, tailwindcss, NextJS');
 
 -- Dumping structure for table silentprojectdatabase.projecttechnologies
 CREATE TABLE IF NOT EXISTS `projecttechnologies` (
@@ -57,14 +67,44 @@ CREATE TABLE IF NOT EXISTS `projecttechnologies` (
   CONSTRAINT `projecttechnologies_ibfk_2` FOREIGN KEY (`technologyId`) REFERENCES `technologies` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table silentprojectdatabase.projecttechnologies: ~0 rows (approximately)
+-- Dumping data for table silentprojectdatabase.projecttechnologies: ~29 rows (approximately)
+INSERT INTO `projecttechnologies` (`projectId`, `technologyId`) VALUES
+	(1, 1),
+	(1, 2),
+	(1, 28),
+	(2, 2),
+	(2, 3),
+	(2, 7),
+	(2, 12),
+	(2, 27),
+	(2, 59),
+	(2, 169),
+	(3, 2),
+	(3, 3),
+	(3, 12),
+	(3, 13),
+	(3, 27),
+	(3, 59),
+	(3, 168),
+	(3, 169),
+	(4, 3),
+	(4, 29),
+	(4, 30),
+	(4, 31),
+	(5, 3),
+	(5, 29),
+	(5, 30),
+	(5, 31),
+	(6, 2),
+	(6, 3),
+	(6, 27);
 
 -- Dumping structure for table silentprojectdatabase.technologies
 CREATE TABLE IF NOT EXISTS `technologies` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=169 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=170 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Dumping data for table silentprojectdatabase.technologies: ~168 rows (approximately)
 INSERT INTO `technologies` (`id`, `name`) VALUES
@@ -235,7 +275,8 @@ INSERT INTO `technologies` (`id`, `name`) VALUES
 	(165, 'HTTP CORS'),
 	(166, 'HTTP Preflight'),
 	(167, 'HTTP Caching'),
-	(168, 'More...');
+	(168, 'More...'),
+	(169, 'NextAuth');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -5,18 +5,13 @@ namespace API
     {
         public static void Main(string[] args)
         {
-            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-            var builder = WebApplication.CreateBuilder(args);
+            string allowSpecificOrigins = "_allowSpecificOrigins";
+            WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
             // Adding Cors (Cross-Origin Resource Sharing) policy
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy(name: MyAllowSpecificOrigins,
-                                  policy =>
-                                  {
-                                      policy.WithOrigins("http://localhost:5233",
-                                                          "http://localhost:5173");
-                                  });
+                options.AddPolicy(name: allowSpecificOrigins, policy => { policy.WithOrigins("http://localhost:5233", "http://localhost:5173", "http://localhost:7054", "http://localhost").AllowAnyHeader().AllowAnyMethod(); });
             });
 
             // Add services to the container.
@@ -26,7 +21,7 @@ namespace API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            var app = builder.Build();
+            WebApplication app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -37,7 +32,7 @@ namespace API
 
             app.UseHttpsRedirection();
 
-            app.UseCors(MyAllowSpecificOrigins); // Add Cors policy
+            app.UseCors(allowSpecificOrigins); // Add Cors policy
 
             app.UseAuthorization();
 

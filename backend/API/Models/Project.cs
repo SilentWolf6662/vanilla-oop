@@ -10,6 +10,7 @@
         public string? Status { get; set; }
         public string? RepositoryLink { get; set; }
         public string? LiveLink { get; set; }
+        public string? Technologies { get; set; }
 
         // Navigation property for the many-to-many relationship
         public ICollection<ProjectTechnology>? ProjectTechnologies { get; set; }
